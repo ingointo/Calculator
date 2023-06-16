@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="calc_heading">Casio Calc</h1>
+    <div class="calc_body">
+        <div class="calc_screen">
+            <input type="text" class="screen-text"  id="ans" readonly>
+        </div>
+        <div class="input_field">
+            <input type="number"  value="" id="val1" placeholder="1234567890" required>
+            
+            <input type="number"  value="" id="val2"  placeholder="1234567890" required>
+        </div>
+        <!-- calculator operators Addition, Subtraction, Multiplication, Division -->
+        <div class="options-operator">
+            <label for="calcultor" class="label-calc" >Choose Operators:</label>
+             <select id="opt">
+                 <option>+</option>
+                 <option>-</option>
+                 <option>/</option>
+                 <option>*</option>
+            </select>
+        </div>
+        <!-- clear function and equal function of calculator calling these function -->
+        <button class="footer-clear" onclick="clearScreen()">C L R</button>
+        <button class="footer-equal" onClick="Calc()">=</button>
+        <div class="footer-name">
+            <h3>Casio</h3>
+        </div>
+    </div>
+</body>
+</html>

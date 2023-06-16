@@ -1,0 +1,114 @@
+.calc_heading{
+    text-align: center;
+}
+
+.calc_body{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(240, 244, 235);
+    margin-left: 600px;
+    border-radius: 8px;
+    border: double rgb(231, 221, 221) 2px;
+}
+
+/* .calc_screen{
+   
+    width: 413px;
+    height: 85px;
+    background-color: rgb(83, 81, 81);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+
+} */
+.screen-text{
+  color: rgb(244, 245, 245);
+  text-align: right;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 406px;
+  height: 80px;
+  background-color: rgb(115, 98, 98);
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+input[type=number] {
+    width: 5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* padding: 12px 20px; */
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-bottom: 30px  ;
+  }
+
+  .display{
+    text-align: center;
+  }
+
+  .label-calc{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(59, 55, 55, 0.947);
+  }
+
+  .options-operator{
+    
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 150px;
+  }
+
+  #operators{
+    /* background-color: rgb(248, 204, 204); */
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #operators:hover{
+    background-color: rgb(248, 204, 204);
+  }
+
+  .footer-clear{
+
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 80px;
+    width: 80px;
+    height:50px
+  }
+
+  .footer-clear:hover{
+    color: rgba(249, 6, 6, 0.47);
+    background-color: rgb(252, 255, 254);
+  }
+
+  .footer-equal{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 70px;
+    width: 80px;
+    height:50px
+  }
+
+  .footer-equal:hover{
+    color: rgba(249, 6, 6, 0.47);
+    background-color: rgb(252, 255, 254);
+  }
+
+  .footer-name{
+    margin-left: 350px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(179, 179, 179);
+  }
